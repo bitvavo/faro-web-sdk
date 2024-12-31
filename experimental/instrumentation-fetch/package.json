@@ -1,6 +1,6 @@
 {
   "name": "@bitvavo/faro-instrumentation-fetch",
-  "version": "1.13.1-alpha.0",
+  "version": "1.13.2-alpha.0",
   "description": "Faro fetch auto-instrumentation package",
   "keywords": [
     "observability",
