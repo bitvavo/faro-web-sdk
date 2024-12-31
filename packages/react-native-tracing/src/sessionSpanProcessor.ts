@@ -1,7 +1,6 @@
+import type { Metas } from '@bitvavo/react-native-sdk';
 import type { Context } from '@opentelemetry/api';
 import type { ReadableSpan, Span, SpanProcessor } from '@opentelemetry/sdk-trace-web';
-
-import type { Metas } from '@grafana/react-native-sdk';
 
 export class FaroSessionSpanProcessor implements SpanProcessor {
   constructor(
@@ -17,7 +16,7 @@ export class FaroSessionSpanProcessor implements SpanProcessor {
     const session = this.metas.value.session;
 
     if (session?.id) {
-      span.attributes["session.id"] = session.id;
+      span.attributes['session.id'] = session.id;
       /**
        * @deprecated will be removed in the future and has been replaced by ATTR_SESSION_ID (session.id)
        */

@@ -1,5 +1,5 @@
 {
-  "name": "@bitvavo/faro-web-tracing",
+  "name": "@grafana/faro-web-tracing",
   "version": "1.13.1-alpha.0",
   "description": "Faro web tracing implementation.",
   "keywords": [

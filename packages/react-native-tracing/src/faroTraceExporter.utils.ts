@@ -1,8 +1,8 @@
+import type { EventAttributes as FaroEventAttributes } from '@bitvavo/react-native-sdk';
 import type { SpanContext } from '@opentelemetry/api';
 import { ESpanKind, IResourceSpans } from '@opentelemetry/otlp-transformer';
 
 import { faro, unknownString } from '@grafana/faro-core';
-import type { EventAttributes as FaroEventAttributes } from '@grafana/react-native-sdk';
 
 export function sendFaroEvents(resourceSpans: IResourceSpans[] = []) {
   for (const resourceSpan of resourceSpans) {

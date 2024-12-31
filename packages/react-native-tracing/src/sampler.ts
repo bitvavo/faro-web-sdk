@@ -1,6 +1,5 @@
+import type { MetaSession } from '@bitvavo/react-native-sdk';
 import { SamplingDecision } from '@opentelemetry/sdk-trace-web';
-
-import type { MetaSession } from '@grafana/react-native-sdk';
 
 export function getSamplingDecision(sessionMeta: MetaSession = {}): SamplingDecision {
   const isSessionSampled = sessionMeta.attributes?.['isSampled'] === 'true';
