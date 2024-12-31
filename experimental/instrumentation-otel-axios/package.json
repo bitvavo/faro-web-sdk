@@ -1,5 +1,5 @@
 {
-  "name": "@grafana/faro-instrumentation-otel-axios",
+  "name": "@bitvavo/faro-instrumentation-otel-axios",
   "version": "1.13.1-alpha.0",
   "description": "Faro axios open telemetry auto-instrumentation package",
   "keywords": [

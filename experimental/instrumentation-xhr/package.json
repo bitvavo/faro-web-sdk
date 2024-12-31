@@ -1,5 +1,5 @@
 {
-  "name": "@grafana/faro-instrumentation-xhr",
+  "name": "@bitvavo/faro-instrumentation-xhr",
   "version": "1.13.1-alpha.0",
   "description": "Faro XHR auto-instrumentation package",
   "keywords": [

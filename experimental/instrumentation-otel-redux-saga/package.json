@@ -1,5 +1,5 @@
 {
-  "name": "@grafana/faro-instrumentation-otel-redux-saga",
+  "name": "@bitvavo/faro-instrumentation-otel-redux-saga",
   "version": "1.13.1-alpha.0",
   "description": "Faro redux-saga open telemetry auto-instrumentation package",
   "keywords": [

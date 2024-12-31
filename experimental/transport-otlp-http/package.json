@@ -1,5 +1,5 @@
 {
-  "name": "@grafana/faro-transport-otlp-http",
+  "name": "@bitvavo/faro-transport-otlp-http",
   "version": "1.13.1-alpha.0",
   "description": "Faro transport which converts the Faro data model to the Otlp data model.",
   "keywords": [

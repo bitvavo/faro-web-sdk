@@ -1,5 +1,5 @@
 {
-  "name": "@grafana/react-native-tracing",
+  "name": "@bitvavo/react-native-tracing",
   "version": "1.13.1-alpha.0",
   "description": "Faro react-native tracing implementation.",
   "keywords": [

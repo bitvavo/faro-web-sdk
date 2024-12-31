@@ -1,5 +1,5 @@
 {
-  "name": "@grafana/faro-instrumentation-performance-timeline",
+  "name": "@bitvavo/faro-instrumentation-performance-timeline",
   "version": "1.13.1-alpha.0",
   "description": "Faro instrumentation to capture Browser Performance Timeline data.",
   "keywords": [

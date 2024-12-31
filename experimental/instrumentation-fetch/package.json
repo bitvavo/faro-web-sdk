@@ -1,5 +1,5 @@
 {
-  "name": "@grafana/faro-instrumentation-fetch",
+  "name": "@bitvavo/faro-instrumentation-fetch",
   "version": "1.13.1-alpha.0",
   "description": "Faro fetch auto-instrumentation package",
   "keywords": [
