@@ -18,7 +18,7 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/grafana/faro-web-sdk.git",
+    "url": "https://github.com/bitvavo/faro-web-sdk.git",
     "directory": "packages/web-tracing"
   },
   "main": "./dist/cjs/index.js",
@@ -66,6 +66,6 @@
     "@opentelemetry/semantic-conventions": "^1.27.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "private"
   }
 }

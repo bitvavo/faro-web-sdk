@@ -54,7 +54,7 @@
     "@remix-run/web-fetch": "^4.3.4"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "private"
   },
   "files": [
     ".browserslistrc",

@@ -16,7 +16,7 @@
   "homepage": "https://github.com/grafana/faro-web-sdk",
   "repository": {
     "type": "git",
-    "url": "https://github.com/grafana/faro-web-sdk.git",
+    "url": "https://github.com/bitvavo/faro-web-sdk.git",
     "directory": "experimental/transport-otlp-http"
   },
   "main": "./dist/cjs/index.js",
@@ -53,7 +53,7 @@
     "@grafana/faro-core": "^1.12.2"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "private"
   },
   "dependencies": {
     "@opentelemetry/semantic-conventions": "^1.27.0"

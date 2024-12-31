@@ -17,7 +17,7 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/grafana/faro-web-sdk.git",
+    "url": "https://github.com/bitvavo/faro-web-sdk.git",
     "directory": "packages/web-sdk"
   },
   "main": "./dist/cjs/index.js",
@@ -61,6 +61,6 @@
     "user-agent-data-types": "^0.4.2"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "private"
   }
 }

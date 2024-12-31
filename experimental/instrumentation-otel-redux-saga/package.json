@@ -58,7 +58,7 @@
     "redux-saga": "^1"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "private"
   },
   "files": [
     ".browserslistrc",
