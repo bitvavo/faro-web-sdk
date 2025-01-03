@@ -11,8 +11,8 @@ interface StartupMetrics {
 // TODO(@lucasbento): figure out where to best place this function
 const measureStartupTime = async (): Promise<void> => {
   try {
-    const metrics: StartupMetrics =
-      await require('react-native')['NativeModules']['NativeInstrumentation'].getStartupTime();
+    const instrumentation = require('react-native')['NativeModules']['NativeInstrumentation'];
+    const metrics: StartupMetrics = await instrumentation.getStartupTime();
 
     api.pushMeasurement({
       type: 'app_startup_time',
