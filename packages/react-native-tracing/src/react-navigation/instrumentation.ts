@@ -1,4 +1,4 @@
-import { BaseInstrumentation, VERSION } from '@grafana/faro-web-sdk';
+import { BaseInstrumentation, VERSION } from '@grafana/react-native-sdk';
 
 import { setDependencies } from './dependencies';
 import { metaPage } from './metaPage';
