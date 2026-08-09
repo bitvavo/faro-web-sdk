@@ -38,7 +38,7 @@
     "quality:circular-deps": "madge --circular ."
   },
   "dependencies": {
-    "@grafana/faro-core": "^1.12.2"
+    "@grafana/faro-core": "2.8.0"
   },
   "devDependencies": {
     "@remix-run/web-fetch": "^4.3.4"
